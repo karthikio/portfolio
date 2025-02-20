@@ -1,0 +1,87 @@
+/* Articles Page Styles */
+.article-detail-container{
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  margin-top: 60px;
+}
+
+.article-detail-container h1{
+  font-weight: 900;
+  font-size: 2rem;
+  color: #333333;
+  margin: 20px 0;
+}
+
+.article-detail-container h2{
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.article-detail-container p, li{
+  font-size: 1rem;
+  color: #333333;
+  line-height: 2rem;
+}
+
+.article-body{
+  color: #333333;
+}
+
+
+.article-detail-container .article-date{
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 2px 0;
+  color: #333333;
+}
+
+.article-detail-container .article-image{
+  width: 100%;
+  background-color: #333333;
+  box-shadow: #959da533 0px 8px 24px;
+  object-fit: cover;
+  height: 280px;
+  border-radius: 5px;
+  object-position: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .article-detail-container{
+    padding: 60px 100px;
+    margin-top: 60px;
+  }
+
+  .article-detail-container .article-image{
+    height: 360px;
+  }
+
+  .article-detail-container h1{
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+  .article-detail-container h2{
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+
+  .article-detail-container p{
+    font-size: 1rem;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .article-detail-container{
+    padding: 60px 200px;
+  }
+
+  .article-detail-container .article-image{
+    height: 380px;
+  }
+
+}

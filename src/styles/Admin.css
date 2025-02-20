@@ -1,0 +1,64 @@
+/* Admin Page Styles */
+.admin {
+  max-width: 600px;
+  margin: 50px auto;
+  min-height: 100vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.admin h1{
+  text-align: center;
+  color: #333;
+  font-weight: 900;
+  font-size: 1.6rem;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.admin h1, .admin h2 {
+  text-align: center;
+  color: #333;
+}
+
+.admin form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin input, .admin textarea, .admin select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  outline: none;
+}
+
+.admin input:focus, .admin textarea:focus{
+  outline: 1px solid #4f4f4f;  
+}
+
+.login-form input{
+  margin-top: 10px;
+}
+
+.admin input[type="file"] {
+  padding: 0;
+}
+
+button {
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: 700;
+}

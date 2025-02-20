@@ -1,0 +1,77 @@
+/* Contact Page Styles */
+.contact {
+  min-height: 100vh;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 60px 20px;
+  margin-top: 60px;
+}
+
+.contact h1 {
+  text-align: center;
+  color: #333;
+  font-weight: 900;
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.contact p{
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  list-style: none;
+}
+
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  outline: none;
+}
+
+.contact input:focus, .contact textarea:focus{
+  outline: 1px solid #4f4f4f;
+}
+
+.contact textarea {
+  resize: vertical;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.contact button {
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+form{
+  margin-top: 20px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .contact h1{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .contact p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+  }
+}

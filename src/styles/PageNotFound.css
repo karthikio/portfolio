@@ -1,0 +1,37 @@
+/* Page not found */
+.page-not-found-container{
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  margin-top: 60px;
+}
+
+.page-not-found-container h1{
+  color: #333333;
+  font-weight: 900;
+  margin: 10px 0;
+} 
+
+.page-not-found-container p{
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.page-not-found-container .link{
+  color: #000000;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .page-not-found-container{
+    padding: 60px 100px;
+    margin-top: 60px;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .page-not-found-container{
+    padding: 60px 200px;
+  }
+}

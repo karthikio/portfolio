@@ -1,0 +1,23 @@
+/* Simple Footer Styles */
+.footer-container {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container p{
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .footer-container p{
+    font-size: 1rem;
+  }
+}
