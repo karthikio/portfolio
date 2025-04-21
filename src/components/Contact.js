@@ -46,7 +46,7 @@ const Contact = () => {
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Your Name" required />
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Your Email" required />
         <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Your Message" required />
-        <button disabled={isButton} type="submit">{isButton ? 'Sending...' : 'Send Message'}</button>
+        <button className='btn' disabled={isButton} type="submit">{isButton ? 'Sending...' : 'Send Message'}</button>
       </form>
     </div>
   );

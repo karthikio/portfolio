@@ -9,25 +9,25 @@
 .article-detail-container h1{
   font-weight: 900;
   font-size: 2rem;
-  color: #333333;
+  color: #fff;
   margin: 20px 0;
 }
 
 .article-detail-container h2{
   font-weight: 900;
   font-size: 1.2rem;
-  color: #333333;
+  color: #ccc;
   margin-top: 20px;
 }
 
 .article-detail-container p, li{
   font-size: 1rem;
-  color: #333333;
+  color: #ccc;
   line-height: 2rem;
 }
 
 .article-body{
-  color: #333333;
+  color: #ccc;
 }
 
 
@@ -35,13 +35,12 @@
   font-size: 0.8rem;
   font-weight: 500;
   margin: 2px 0;
-  color: #333333;
+  color: #ccc;
 }
 
 .article-detail-container .article-image{
   width: 100%;
-  background-color: #333333;
-  box-shadow: #959da533 0px 8px 24px;
+  background-color: #333;
   object-fit: cover;
   height: 280px;
   border-radius: 5px;

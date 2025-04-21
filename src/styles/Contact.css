@@ -9,7 +9,7 @@
 
 .contact h1 {
   text-align: center;
-  color: #333;
+  color: #FFF;
   font-weight: 900;
   font-size: 1.6rem;
   margin-bottom: 30px;
@@ -19,6 +19,7 @@
   font-size: 0.8rem;
   line-height: 1.4rem;
   list-style: none;
+  color: #f5f6f7;
 }
 
 
@@ -66,12 +67,12 @@ form{
     font-weight: 900;
     font-size: 2rem;
     margin-bottom: 8px;
-    color: #333;
+    color: #FFF;
   }
 
   .contact p{
     font-size: 1rem;
     line-height: 1.5rem;
-    color: #333;
+    color: #f5f6f7;
   }
 }

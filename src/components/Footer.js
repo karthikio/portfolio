@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer-container">
       <p>
-        &copy; {new Date().getFullYear()} Karthik Santhosh | Fueled by ☕ and Creativity
+      &copy; {new Date().getFullYear()} Karthik Santhosh | Code. Coffee. Repeat.
       </p>
     </footer>
   );

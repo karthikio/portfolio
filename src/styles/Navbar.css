@@ -4,7 +4,7 @@
   height: 70px;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
+  /* background-color: #000000; */
   padding: 15px 20px;
   color: white;
   position: fixed;
@@ -12,6 +12,11 @@
   width: 100%;
   z-index: 1000;
   box-shadow: 0 4px 6px #0000001a;
+
+  background: rgba(18, 18, 18, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 /* Adjust the top padding of your page's content */
@@ -32,7 +37,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #4f4f4f;
+  color: #ccc;
 }
 
 /* Burger Icon for Mobile */
@@ -80,7 +85,7 @@ body {
     position: absolute;
     right: 0;
     top: 60px;
-    background-color: #000000;
+    background-color: #000;
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -105,3 +110,4 @@ body {
     margin: 16px 0;
   }
 }
+

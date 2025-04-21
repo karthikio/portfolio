@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-    <h2 className="logo">Karthik.io</h2>
+    <h2 className="logo">karthik.io</h2>
     <div className={`nav-links ${isOpen ? "open" : ""}`}>
     <li><Link to="/" onClick={closeMenu}>Home</Link></li>
     <li><Link to="/articles" onClick={closeMenu}>Articles</Link></li>
