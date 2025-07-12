@@ -197,9 +197,9 @@ const Home = () => {
         <div className="hero-section">
           <div className="hero-content">
           <h1>Karthik Santhosh</h1>
-          <h2 className="tagline">Creative Full-Stack Developer & Freelancer</h2>
+          <h2 className="tagline">Full-Stack Developer & Freelancer</h2>
           <p className="intro-text">
-            Just 22. I love building responsive and creative web and mobile applications.  
+            I love building responsive and creative web and mobile applications.  
             Crafting immersive digital experiences through code and creativity.
           </p>
           <p className="secondary-text">
@@ -219,7 +219,7 @@ const Home = () => {
             </div>
             <div className="cta-buttons">
               <a target='_blank' href="https://github.com/karthikio" className="cta-primary">View Projects</a>
-              <Link className="cta-secondary" to="/contact">Contact</Link>
+              <Link className="cta-secondary" to="/articles">My posts</Link>
             </div>
           </div>
         </div>
@@ -281,6 +281,19 @@ const Home = () => {
               </div>
             </div>
           </section>
+
+          <section className="collab-section">
+  <h2 className="collab-title">Let's Build Something Amazing Together</h2>
+  <p className="collab-text">
+    I'm always looking for <span className="collab-highlight">passionate</span> and 
+    <span className="collab-highlight"> enthusiastic</span> individuals to collaborate with on 
+    real-world projects. If you share my love for creating innovative solutions and want to 
+    work on exciting challenges, I'd love to connect and explore opportunities together.
+  </p>
+  <Link to="/contact" className="collab-button">
+    Get in Touch
+  </Link>
+</section>
         </div>
       </div>
     </div>
